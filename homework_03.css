@@ -1,0 +1,150 @@
+*{
+    font-family: 'Kantumruy Pro', sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.head{
+    margin:  50px ;
+}
+
+/* Design header */
+.header{
+    background-color: rgba(165, 42, 42, 0.715);
+    text-align: center;
+    padding: 10px;
+}
+.header a{
+    text-decoration: none;
+}
+.header a:hover{
+    color: white;
+}
+/* Banner design */
+.banner{
+    background-image: url("https://www.thoughtco.com/thmb/kNutW9Ldpup0mVFnvcRoYqDIsUc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/ByEveLivesey-5c67383446e0fb00010cc107.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.banner a{
+    border: 1px solid white;
+    padding: 12px;
+    text-decoration: none;
+    color: darkblue;
+}
+.banner a:hover{
+    background-color: rgba(0, 0, 0, 0.679);
+    color: white;
+}
+
+/* band */
+.band{
+    padding: 12px;
+}
+.band h1{
+    text-align: center;
+    color: darkblue;
+}
+.band p{
+    text-align: center;
+    color: darkblue;
+}
+/* band images */
+
+.band_images{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.band_images img{
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
+    object-position: bottom;
+    padding: 40px;
+}
+.band_h{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.band_h img{
+    height: 350px;
+}
+.band_h p{
+    text-align: center;
+    color: darkblue;
+}
+/* box icons */
+.box-body {
+    text-align: center;
+    color: darkblue;
+}
+.box{
+    background-color: antiquewhite;
+    padding: 20px;
+    margin: 50px;
+}
+.top{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.box-top{
+    padding: 20px;
+}
+i{
+    font-size: 60px;
+}
+
+.bottom{
+    display: flex;
+    flex-wrap: wrap;
+}
+.box-bottom{
+    padding: 20px;
+}
+
+
+/* Design Images */
+.gallery {
+    width: 100%;
+}
+.gallery h1{
+    text-align: center;
+    color: darkblue;
+}
+.gallery ul{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;  
+}
+.gallery li{
+    display: flex;
+    height: 350px; 
+    flex-grow:1;
+} 
+.gallery img {
+    object-fit: cover;
+    min-width: 100%;
+}
+.container{
+    margin: 50px;
+}
+
+
+
+
